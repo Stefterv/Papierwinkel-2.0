@@ -24,10 +24,14 @@
 		<div class="main">
 			<div class="left">
 				<div class="day" w="40%">
+					<div class="date default" start="20%" length="60%">date 3</div>
 					<div class="date" start="20%" length="10%">date 1</div>
 					<div class="date" start="75%" length="20%">date 2</div>
 				</div>
-				<div class="day" w="20%">test2</div>
+				<div class="day" w="20%">
+					<div class="date default" start="20%" length="75%">Test 1</div>
+					<div class="date" start="15%" length="75%">Test 1</div>
+				</div>
 				<div class="day">test3</div>
 				<div class="day">test4</div>
 				<div class="day">test5</div>

@@ -1,6 +1,7 @@
 @import 'fira.scss';
 $maxdays: 7;
-
+$color1: #34ed08;
+$color2: #29b2f9;
 
 body{
 	margin: 0;
@@ -30,12 +31,17 @@ body{
 			.date{
 				position: absolute;
 				width: 100%;
-				border-left: 2px solid rgba(#34ed08,0.9);
+				border-left: 2px solid rgba($color1,0.9);
 				background-image: url('/images/greenStripes.png');
 				background-size: 4px 4px;
+				&.default{
+					background-image: url('/images/blueStripes.png');
+					background-position: 0px -2px;
+					border-left: 2px solid rgba($color2,0.9);
+				}
 			}
 			&:first-child{
-				margin-left: 5px;
+				margin-left: 7px;
 			}
 		}
 	}

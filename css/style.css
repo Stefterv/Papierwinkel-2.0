@@ -99,8 +99,12 @@ body {
         border-left: 2px solid rgba(52, 237, 8, 0.9);
         background-image: url("/images/greenStripes.png");
         background-size: 4px 4px; }
+        .main .left .day .date.default {
+          background-image: url("/images/blueStripes.png");
+          background-position: 0px -2px;
+          border-left: 2px solid rgba(41, 178, 249, 0.9); }
       .main .left .day:first-child {
-        margin-left: 5px; }
+        margin-left: 7px; }
 
 .info {
   position: fixed;
