@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$(".date").each(function(){
+		$(this).css("top",$(this).attr("start"));
+		$(this).css("height",$(this).attr("length"));
+	});
+	$(".day").each(function(){
+		$(this).css("width",$(this).attr('w'));
+	});
+});
