@@ -25,7 +25,7 @@
 			<div class="left">
 				<div class="day" w="40%">
 					<div class="date" start="20%" length="10%">date 1</div>
-					<div class="date" start="80%" length="20%">date 2</div>
+					<div class="date" start="75%" length="20%">date 2</div>
 				</div>
 				<div class="day" w="20%">test2</div>
 				<div class="day">test3</div>
